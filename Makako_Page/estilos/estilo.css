@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Caveat & display = swap');
+/* #eeeeee #393e46 #76ead7 #c4fb6d*/
+/* Paleta de colores https://colorhunt.co/ */
+
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0.2%;
+}
+
+.logo a:hover{
+    color: #34a300;
+}
+
+.logo a{
+    font-family: 'Audiowide', cursive;
+    padding: 1em;
+    color: #c4fb6d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2em;
+    margin-bottom: 2em;
+}
+
+
+.top{
+    background: url('../Imagenes/fondotop2.png');
+    display: flex;
+    padding: 1em;
+    color: #34a300;
+ }
+
+
+.img_media{
+    background-color: 50%;
+    display: flex;
+}
+
+.img_media img{
+    width: 50%;
+    margin-top: 2em;
+}
+
+.titulo h2{
+    margin: 10em;
+    padding: 1em 1em 1em 1em;
+    font-family: 'Audiowide', cursive;
+    font-size: 200%;
+    border-top: 5px solid #c4fb6d;
+    border-bottom: 5px solid #c4fb6d;
+    border-left: 5px solid #c4fb6d ;
+    border-right:  5px solid #c4fb6d;
+    padding: 10px 30px;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+.titulo h2:hover{
+    color: #34a300;
+    box-shadow: 0 4px 8px 0 green;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+    
+    
+}
+.menu{
+    text-decoration: none;
+    color: #000000;   
+    padding: 10px 30px;
+    border-top: 5px solid #c4fb6d;
+    margin-left: 2em;
+    color: white;
+}
+    
+.menu:hover{
+    color: #34a300;
+    box-shadow: 0 4px 8px 0 green;
+    border-top: solid;
+
+
+}
+
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px 10px 0 10px;
+    margin-left: 1em;
+    font-size: 17px;
+}
+
+
+.card {
+
+    background: url('../Imagenes/fondotop2.png');
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: .5em; 
+    display: flex;
+    
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 green;
+
+}
+
+
+
+.card img{
+    box-shadow: 0 4px 8px 0 black;
+    width: 15em;
+    border-radius: 5px 5px 0 0; 
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+     
+}
+
+.container{
+    color: #ffffff;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+} 
+
+
+
+.container input[type=button]{
+    align-items: center;
+    background-color: #34a300;
+    color: whitesmoke;
+    border: 1px solid;
+    border-radius: .5em; 
+    padding: .5em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.container input[type=button]:hover{
+    box-shadow: 0 4px 8px 0 green;
+
+}
+
+.nova_brea{
+    display: flex;
+}
+
+.bachito_freddy{
+    display: flex;
+}
+
+.edwin_elian{
+    display: flex;
+    
+}
+
+.angel_brito{
+    display: flex;
+}
+
+
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+  
+#footer span {
+    color: red;
+  }
